@@ -1,0 +1,4 @@
+- hosts: localhost
+  tasks:
+          - name: create a test file
+            shell: touch /tmp/hulala
