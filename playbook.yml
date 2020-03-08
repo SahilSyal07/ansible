@@ -1,6 +1,7 @@
 ---
 - name: Print a Variable
-  hosts: all
+  hosts: localhost
   tasks:
-  - name: Print
-    debug: Entered name by user {{ Name }}
+    - name: Print
+      debug: 
+        msg: Entered name by user {{ Name }}
