@@ -2,3 +2,6 @@
   tasks:
     - name: create a test file
       shell: touch /tmp/hulala
+    - name: create {{ Name }} file
+      shell: touch /tmp/{{ Name }}
+      
