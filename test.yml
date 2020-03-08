@@ -1,8 +1,10 @@
-- hosts: kube-master
-  remote-user: root
+- name: Test Play 
+  hosts: kube-master
+  become: yes
   tasks:
     - name: create a test file
       shell: touch /tmp/hulala
     - name: create 
       shell: echo Sahil
+
       
