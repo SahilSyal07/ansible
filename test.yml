@@ -1,4 +1,4 @@
-- hosts: 192.168.1.15
+- hosts: all
   tasks:
     - name: create a test file
       shell: touch /tmp/hulala
