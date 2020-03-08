@@ -1,9 +1,6 @@
 ---
-- name: Install Package
+- name: Print a Variable
   hosts: all
-  vars: 
-    package: from_playbook
-
   tasks:
-  - name: Install package
-    yum: name={{ package }} state=present
+  - name: Print
+    debug: Entered name by user {{ Name }}
