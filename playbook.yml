@@ -1,7 +1,0 @@
----
-- name: Print a Variable
-  hosts: localhost
-  tasks:
-    - name: Print
-      debug: 
-        msg: Entered name by user {{ Name }}
