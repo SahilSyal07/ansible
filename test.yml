@@ -1,5 +1,5 @@
 - name: Test Play 
-  hosts: 192.168.1.18
+  hosts: kube-worker
   become: yes
   tasks:
     - name: create a test file
