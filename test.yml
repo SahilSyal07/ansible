@@ -5,6 +5,6 @@
     - name: create a test file
       shell: touch /tmp/hulala
     - name: create 
-      shell: echo {{ Name }}
+      shell: echo variable ; echo "{{ Name }}"
 
       
